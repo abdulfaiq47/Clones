@@ -1,3 +1,0 @@
-[build]
-  publish = "."
-  command = ""  # Leave empty if no build command needed
