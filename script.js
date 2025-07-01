@@ -399,16 +399,7 @@ document.getElementById("toggleplaylist").addEventListener("click", () => {
 
 });
 
-console.log("📁 currfolder:", currfolder);
-console.log("📁 albumfolder:", albumfolder);
 
-console.log("⏳ Fetching all songs folder...");
-let all = await fetch("songs/");
-console.log('All songs folder returned:', all.status);
-
-console.log(`⏳ Loading album info from:netlify deploy --prod songs/${albumfolder}/info.json`);
-let a = await fetch(`songs/${albumfolder}/info.json`);
-console.log('Album fetch status:', a.status);
 
 
 
